@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="http://www.textcreationpartnership.org/docs/code/pfs.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An Essay toward the composing of present differences in ecclesiasticks and consequently in civils as the effects, or rather consequences of those.</title>
+         </titleStmt>
+         <extent>Approx. 84 KB of XML-encoded text transcribed from 20 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2016-02">2016-02 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A38637</idno><idno type="EEBO-CITATION">11982849</idno>
+  <idno type="VID">51895</idno>
+  <idno type="EEBO-PROQUEST">2248547354</idno>
+  
+            <idno type="STC">Wing E3296</idno>
+            <idno type="STC">ESTC R31445</idno>
+            <idno type="OCLC">11982849</idno>
+            <availability><p>This keyboarded and encoded edition of the work described above is co-owned by the
+    institutions providing financial support to the Early English Books Online Text Creation
+    Partnership. This text is available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/"> Creative Commons 0 1.0 Universal
+    licence</ref>. The text can be copied, modified, distributed and performed, even for commercial
+    purposes, all without asking permission.</p></availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt><relatedItem type="facs" target="https://data.historicaltexts.jisc.ac.uk/view?pubId=eebo-e"/>
+            <note>(EEBO-TCP ; phase 2, no. A38637)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 51895)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1008:14)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An Essay toward the composing of present differences in ecclesiasticks and consequently in civils as the effects, or rather consequences of those.</title>
+               </titleStmt>
+               <extent>18 [i.e. 39] p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.],</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1650.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Place of publication suggested by Wing.</note>
+                  <note>Numerous errors in pagination.</note>
+                  <note>Reproduction of original in the Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Full documentation of the original data capture process is available from the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.
+   All versions of the texts are now archived and freely available for download. See <ref target="https://textcreationpartnership.org/faq/#faq05">the TCP Download FAQ</ref>
+   for detailed information. The TEI P5 versions are also freely available from the <ref target="https://github.com/textcreationpartnership">TCP Github repository</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp" matchPattern="([0-9\-]+):([0-9IVX]+)" replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char" matchPattern="(.+)" replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term type="topical_term">Freedom of religion --  England.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-08 </date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images </change>
+         <change>
+            <date>2015-01 </date>
+            <label>Alexis (Ali) Jakobson </label>Sampled and proofread </change>
+         <change>
+            <date>2015-01 </date>
+            <label>Alexis (Ali) Jakobson</label>Text and markup reviewed and edited </change>
+         <change>
+            <date>2015-03 </date>
+            <label>pfs</label>Batch review (QC) and XML conversion </change>
+      <change><date>2021-05 </date><label>lb</label>TEI P5 conversion </change></revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:51895:1"/>
+            <pb facs="tcp:51895:1"/>
+            <p>AN ESSAY Toward the Composing of Present DIFFERENCES IN ECCLESIASTICKS; AND CONSEQUENTLY IN CIVILS: As the Effects, or rather Consequences of those.</p>
+            <q>
+               <bibl>
+                  <hi>PROV. 14.15, with the 16.</hi>
+               </bibl>
+               <p>The Simple beleeveth every word, but the Prudent looketh well to his going</p>
+               <p>The Fool rageth, and is confident: but the wise man feareth, and departeth from evill.</p>
+            </q>
+            <q>
+               <bibl>
+                  <hi>Mat. 23 8.</hi>
+               </bibl> Nullius addictus jurare in verba magistri.</q>
+            <q>
+               <bibl>
+                  <hi>Hor.</hi>
+               </bibl>
+               <l>— No, give mee</l>
+               <l>A Philosophie Ingenuitie.</l>
+               <l>A <hi>Bacon, Luther,</hi> truth-exploring brain,</l>
+               <l>Dives in those Depths of Grace and Nature, fain</l>
+               <l>Wu'd reach the Bottom, view the Springs, scorns t<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>Swimme down the Stream of Sects or Synods, who</l>
+               <l>Tide him as Torrents to the Swallowing Gulph</l>
+               <l>Of Blind and Raging Confidence.—</l>
+            </q>
+            <p>Printed in the yeare 1650.</p>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:51895:2"/>
+            <epigraph>
+               <bibl>
+                  <hi>1. COR. 2.2.</hi>
+               </bibl>
+               <q>I have determined not to know any thing among you, save Jesus Christ, and him crucified.</q>
+            </epigraph>
+            <l>THere's One thing Needfull. Vseless things are All</l>
+            <l>That not as lines into this Center fall.</l>
+            <l>What ere's our Light, Love, Life, but as wee're Dead,</l>
+            <l>Alive alone in Him our Hand, Heart, Head.</l>
+            <l>Fond, Foolish, Fruitless, all our Thoghts Words, Ways,</l>
+            <l>That us not humble, and that him not praise,</l>
+            <l>As First and Last of all, Beginning, End,</l>
+            <l>Whence all our Motions flow, and whither tend.</l>
+            <l>Vain, Wicked, Wretched els all all Imployments</l>
+            <l>Religious, Civill, Nat'rall, all Injoyments,</l>
+            <l>Gifts, Parts, Performances, Abilities,</l>
+            <l>Enlargements, Exc<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>llencies. God's Onely Wise,</l>
+            <l>Good, Bless'd, the Mediator Christ, who can</l>
+            <l>Can onely make a wise, good, blessed man.</l>
+         </div>
+      </front>
+      <body>
+         <div type="essay">
+            <pb n="3" facs="tcp:51895:2"/>
+            <head>
+               <hi>AN ESSAY</hi> Toward the Composing of present <hi>DIFFERENCES, &amp;c.</hi>
+            </head>
+            <p>
+               <seg rend="decorInit">T</seg>Here are two dangerous and often de<g ref="char:EOLhyphen"/>sperate seducers of this erroneous and Hereticall Age, Blinde Antiquitie and purblinde Noveltie: The one on the right hand, the other on the left, catching hold even of every man, that no sooner hath he escaped the one, but (if not very circumspect) he instantly falls into the hands of the other. And impossible indeed it is for the Soul who never so little leans to its own understanding, and is not put and kept in an upright, humble, steadie Posture of Spirit, under the Soveraign counsell and conduct of the onely True God, as becoming altogether a fool in its own eys, as knowing and acknowledging him the onely Wise, Holy, Just and Good Director and Disposer of it in all its thoughts and ways; Impossible it is for the Soul, not thus grounded on God, and guarded in him, not to be mis-led by the one or the other, at least to his dam<g ref="char:EOLhyphen"/>mage, if not destruction. Man having by his fall, not onely hurt the eys, but the feet of his Soul; not onely blinded his understanding, but maimed his affections; he is so loath and lazie to wait upon the Lord in his way of a di<g ref="char:EOLhyphen"/>ligent
+<pb n="4" facs="tcp:51895:3"/> and industrious Inquisition into, and Disquisition of, the Truth, by labouring and digging in those rich and deep Mines of the Scripture, with humble, earnest and un<g ref="char:EOLhyphen"/>cessant prayer and care, (<hi>Prov.</hi> 2. <hi>John</hi> 5.) that he present<g ref="char:EOLhyphen"/>ly hearkens to the prompting of his dark minde, and dead heart, either to ease and rest himself sottishly and sleepily in the implicite Faith of Antiquitie, or else to please and refresh himself in the specious and spacious phantasmes of Noveltie. But when externall profit and praise shall concur with this internall ease and pleasure, to byass the Soul either the one or the other way, how speedily, if not irreclaimably it runs away! The squint eye of the mind is never without the spley foot of the heart. And with two worse marks can no Soul be deformed, nor by two worse means destroyed. <hi>The Integritie of the upright shal guide him, and in guiding preserve him, (Prov.</hi> 11.3.) He that in any thing seeks himself and not God (as he doth, (and that with the highest affront) who in seeking God, seeks himself) shall misse or lose his way, if not himself. <hi>Dimidium facti,</hi> &amp;c. holds as true in thoughts and opinions, as in deeds and practice. The rectifying the Intention, sets the minde half way forward and more toward the attainment of the Truth. But the turning aside of the simple, leads them to Deceit and Death, <hi>Pro.</hi> 1.23.</p>
+            <p>How far and how fast (as if afraid to be prevented) the ambitious affectation of singularitie, the flattering fame of new Discoveries, new Lights, transports some men into a credulitie of receiving, and dexteritie of revealing uncouth and uselesse whimseys, odd, mad and monstrous Crotchets, I heartily wish them that usefull and happy discovery of their own fallacious hearts to perceive. Fond and foolish men, who prize and prefer a quaint and curious notion of a fancifull head, before the quick and lively motion of a lovefull, a faithfull heart, and fruitfull life! Men? nay, children, who refuse a piece of Gold, solid, cordiall and Vi<g ref="char:EOLhyphen"/>tall
+<pb n="5" facs="tcp:51895:3"/> Truth, for a painted babie, a paltrie bable: That play and sport themselves about every new light (as the Flye about the Candle) till they sindge their wings, if not con<g ref="char:EOLhyphen"/>sume their Souls: That rather then they will let any new Light go unembraced, will embrace the Devil transformed into an Angel of Light; follow every <hi>Ignis fatuus,</hi> while with dizzie heads, it leads them along hither and thither, till it leaves them in some deep and myrie Ditch: That decline the Doctrine that is according unto Godlinesse, sound, simple and wholsome words, to feed upon winde, (1. <hi>Tim.</hi> 6.3, 4.<note place="margin">1. Tim. 6.1y.</note>) and feast themselves with Quelqu'choses, a hotch-potch of any thing, savourie to a sensuall palate, and fleshly minde: Who leaving those substantiall Soul-profiting Truths of self-deniall, self-examination, self-abo<g ref="char:EOLhyphen"/>mination, &amp;c. as scraps and offalls, are blown and blather'd up with frothie, frivolous and fruitlesse conceipts: Who eat for lust, and not for strength, to gratifie the daintie appetite of a secure Soul, rather then to procure the sound health of a warie, wise and watchfull Soul. Greedie de<g ref="char:EOLhyphen"/>vourers of opinions, luscious to their wanton fancies, streight wearie and sick of them, vomit them up again, and then to a new dish of somewhat a various taste. Light vain Spirits, that are moved, if not removed with every winde of doctrine; when weightie ponderous and ponde<g ref="char:EOLhyphen"/>ring spirits shake not, or are setled by their shaking. Stran<g ref="char:EOLhyphen"/>gers to, if not slighters, yea deriders of (as Soloecismes in Phrase, and Paradoxes in sense) the Mystery and Majesty of such Scripture-Expressions, <hi>A wise and understanding heart, Beleeving with the heart, Doth Truth, Walking in the truth, The fear of the Lord is the beginning of wisdom, and to depart from evill is understanding, Faith which works by love</hi> (a working and a lovefull faith) &amp;c. As if divine knowledge were the adaequate object of the mind, and comprehended not the heart and the whole man, the aff<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ctions and actions▪ Whereas on a true account, we onely so far know Truth as it makes impression on, and
+<pb n="6" facs="tcp:51895:4"/> takes poss<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ssion of the heart, receiving it as such in th love thereof, and brings fort, a seasonable and sureable ex<g ref="char:EOLunhyphen"/>pressions in the life, resembling and holding forth the li<g ref="char:EOLunhyphen"/>ving beautie thereof. (Hence are the sons of <hi>Aaron</hi> said not to know the Lord.) And the reasons obvious, God being no more, no farther a True God, then a living God, Infinite Truth, Infinite L<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>fe! He that truly knows him in any thing as the true God, most of necessitie also as the living God. But if we live in the Spirit of Truth, we must also walk in it. Action being the l<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>fe of life, and life as death without it. He distinguisht well, <hi>Tot annos fui, tot tantum vixi.</hi> It is impossible that a man should know life, but he must live; the spirit of truth and life, but he must be changed into the true and living image of the same, be<g ref="char:EOLhyphen"/>ing happily humbled before it, &amp; sweetly confounded by it, graciously &amp; gloriously revealed to him, in him &amp; through him. He therefore that is haughtie, heady, harsh, and cen<g ref="char:EOLhyphen"/>sorious, and not lowly, meek, humble, sweet and candide in the declaration, not diligent and dutifull in the doing, of what he holds as truth, may justly suspect it is not the Truth he holds, at least not as the Truth. Such a man may fear though he holds the truth, he is not held by it, though, he knows, takes up the Truth, he is not known, not taken up by it, and into it, as not being come under the comman<g ref="char:EOLhyphen"/>ding power of it; not delivered up to the self-resembling Mould, (<hi>Rom.</hi> 6.17.) Those that learn not in him the li<g ref="char:EOLhyphen"/>ving way of Truth, to know and teach in the humilitie and activity of him, who said, <hi>Learn of me, for I am humble,</hi> and <hi>went up and down continually doing good,</hi> no marvell if they lose themselves in the confused and end<g ref="char:EOLhyphen"/>lesse Maeanders of Deceit and Dead Works. With such men, all things, not onely Ordinances sanctified by, yea filled with the presence and power of God, but Christ him<g ref="char:EOLhyphen"/>self, are meere Forms. Yea, and should the Lord quite leave them to their own hearts, God himself would shortly be a Form too: <hi>quia forma dat esse.</hi> My heart trembles, and
+<pb n="7" facs="tcp:51895:4"/> my hand fails me. — Only let me say this to them, that he that despiseth any of the least and lowest of the Ordi<g ref="char:EOLhyphen"/>nances of God, either as to persons or things, despi<g ref="char:EOLhyphen"/>seth him that sent and appointed them, <hi>Luc.</hi> 10.16. It was a proud and peremptorie wickednesse in that wicked <hi>Achaz, Isai</hi> 7. not to accept and make use of a signe when given him, as it was a base and sordide adulterous<g ref="char:EOLhyphen"/>nesse, a turning aside to another god, in those <hi>Scribes</hi> and <hi>Pharisees,</hi> to require a signe when not to be given, <hi>Matth.</hi> 12.39. But, did ever any harden their hearts against him and prosper, <hi>Job</hi> 9.4. How justly may, yea how often doth, the Lord give over such men to such nefarious abho<g ref="char:EOLhyphen"/>minations, as deservedly bring them under the lash, with<g ref="char:EOLhyphen"/>in the compasse and cognizance, of the Civill Magistrate.</p>
+            <p>To the blinde Antiquary then I turn mine eye. And I finde not the former so phantastick and fanatick in his new, but this as, if not more, antick and frantick in his old fashion. Not the one so proudly pettish for the mislike of his, but the other as much or more so for his. Tell him, he is out of the way, and he streight applauds himself in he is heart, while he complements God with his mouth, that he is not as this giddie-headed fellow, (this Secta<g ref="char:EOLhyphen"/>ry, Schismatick, &amp;c.) but he goeth fore-right step for step after his fore-fathers, their Faith, Worship, Way, Re<g ref="char:EOLhyphen"/>ligion is his, what they were, he is: And so because he is not what he should not be, will not be, and thinks it ex<g ref="char:EOLhyphen"/>cuse enough that he is not, what he should be. Because the other preferres a vain and wanton curiositie, before an Ingenuous modesty and sobriety, he will preferre a blinde and blockish, a dull and doltish stupiditie, before a modest and sober Ingenuitie. Because the other catcheth at every new light at the first flight of it, he runnes heed<g ref="char:EOLhyphen"/>lessly and headlongly into the dark Caverns of Antiquity, as resolving to have no light, rather then any kinde of new light. The Determinations of his Predecessors, Decrees of Generall Assemblies, the Prescription of ma<g ref="char:EOLhyphen"/>ny
+<pb n="8" facs="tcp:51895:5"/> Ages, the Doctrine of the Church he lives in, the Re<g ref="char:EOLhyphen"/>ligion of the State and Kingdom he was born and bred in, are the reasons the account he gives of his Faith; or at best, if somewhat of the Scripture, shap d by an In<g ref="char:EOLhyphen"/>terpretation of the aforesaids, and made ready to his mind and mouth. Who ever speaks not according unto these, it is n his esteem, because there is no truth in them; not under<g ref="char:EOLhyphen"/>standing, nor caring to understand, that many Tenets that pass for old Truths, are new Errours; as well as many that passe for new truths, are old errours. So often is old light, new; &amp; new, old: Antiquity, Novelty; &amp; Novelty, Antiquity.</p>
+            <p>Truth considered essentially, is one and the same from Eternity to Eternity, the God of Truth, the Word of Truth, the Lord Jesus <hi>the beaming brightnes</hi>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> (<hi>Heb.</hi> 1.) <hi>the very expresse Character of his Fathers Glory, yesterday, and to day, and for ever the same.</hi> Though according to the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> (<hi>Eph.</hi> 3.10.) <hi>the manifoldly various wisdome of God toward the Church</hi> there be different Accidents and Forms, Me<g ref="char:EOLhyphen"/>thods and Measures of disclosing it, both in respect of Times and Men; and that as of several Ages &amp; generations, so of severall particular times to the same men, &amp; severall perticular men at the same time. But all as shadowes with<g ref="char:EOLhyphen"/>out substance, bodies without soul, but as animated, infor<g ref="char:EOLhyphen"/>med inspired by the Immutable spirit of Truth. He then is the Heterodox, the Sectary, &amp;c. That dissents &amp; divides from God, but who only from men, he is the Orthodox, Confor<g ref="char:EOLhyphen"/>mist Uniformist &amp;c. That Opinion, way of worship, form of duty, that derives its pedegree from many generations, from the approbations of many great men among the Ancients, may yet prove but a new error, false way, Superstitious form, unlesse it can produce the Ancient of dayes for its Au<g ref="char:EOLhyphen"/>thor &amp; upholder, before whom the first and best of men are but mushromes of yesterday, vaine to day, and vanish<g ref="char:EOLhyphen"/>ing to morrow: But it will prove an old and Authentick Truth though but of very late &amp; new discovery that can
+<pb n="9" facs="tcp:51895:5"/> prove its descent from him and continuance by him. And hence may the Lord Jesus well say, <hi>Before</hi> Abraham <hi>was, I am;</hi> though you looke upon me as an Innovator, and my Doctrine as strange and upstart, yet before Abraham of whom you so boast your selves as the onely true, religious, Orthodox, &amp;c. before him and those Rituall, Cerimoniall observations of Circumcision, &amp;c. before your being instated into the form of a National Church <hi>I am</hi> the same substance of Truth, Religion &amp;c. All other authority of what man or men soever besides his, and not meerly subordinate to his, as Commissioned by his, who <gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s the Author and finisher of our faith, being a proud and usurping Imposture in the Im<g ref="char:EOLhyphen"/>posers, and a base abominable Vassalage in the receivers.</p>
+            <p>Honorable indeed <gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s age, and antiquity, if found in the way of Truth and Righteousnes. So that truth and righ<g ref="char:EOLhyphen"/>teousnesse are not to be lookt for in the way of age and antiquity, but antiquity and age in the way of righteousnes and truth; not as if these were confined to them, but they to these. Let men indeed have their due; and that is nothing but as they hold of God. <hi>They that compare themselves a<g ref="char:EOLhyphen"/>mongst themselves are not wise</hi> (2. <hi>Cor.</hi> 10.12.<note place="margin">2 Cor. 10.12</note>) but they that compare themselves, all men and all things unto God. <hi>Rectum est Index sui &amp; obliqui,</hi> is as good a Theologicall as Geometricall rule. The Light manifests it selfe and dark<g ref="char:EOLhyphen"/>nesse, the right both it selfe and that which is wrong. Ex<g ref="char:EOLhyphen"/>ceeding observable &amp; most worthily imitable in these times of Extreames &amp; Extravagancies is that discreet and humble behaviour of <hi>Elihu, (Job.</hi> 32.<note place="margin">Iob 3<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note>) where after he had (as conscious of his own youth and weaknesse) with a due de<g ref="char:EOLhyphen"/>corum &amp; submissive posture of Spirit waited respectively and attentively on the words of those three old Counsellers till they had no more to say, that so he might avoid the <hi>Scylla</hi> of Outrecuidance and Opiniastretè (as the French well expresse it) an overweaning conceipt, a rash and perti<g ref="char:EOLhyphen"/>natious opinionativenesse (accordng to that <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>not to be of a lofty, but a sound minde (Rom.</hi> 12.3) so that as he said,<note place="margin">Rom. 12 3</note>
+               <hi>days should speak; when I had wai<g ref="char:EOLhyphen"/>ted,
+<pb n="10" facs="tcp:51895:6"/> attended, was afraid, &amp;c. (Verse.</hi> 6.7.11.12.16) he then proceeds to avoid the <hi>Charibdis</hi> of a simple and silly subscription to, a secure acquiescence in, their sense and sentence, (one of these rocks usually making Shipwrack of mens faith, a conceptednesse of, and confidence in either their owne or other mens wisdome) he proceedes there<g ref="char:EOLhyphen"/>fore, <hi>But there is a spirit in man, &amp;c.</hi> as if he should say,
+<q>
+                  <l>There is a boundlesse free and freeing Spirit,</l>
+                  <l>When, where, and as, he list, he blowes; no merit</l>
+                  <l>Of Age, great Learning, can appropriate</l>
+                  <l>Him to it self; but he'll communicate</l>
+                  <l>As much, yea more, his Wisdom to the poore,</l>
+                  <l>Weake, simple ones, then those the world adore</l>
+                  <l>As Masters, if not Makers, of their Faith.</l>
+               </q> There are three words very considerable in those 2 <hi>verses</hi> 8.9. <hi>A Spirit in</hi>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> frail, weak contemtible man (not <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> not <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>) <hi>The inspiration of</hi>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>
+               <hi>the Al-sufficient. Great men</hi>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>
+               <hi>Rhabim,</hi> as if he pointed at the Jewish Rabbies and Gentile Doctors the great Clerks and Church-men, (as we call them) <hi>are not alwayes wise,</hi> cannot confine the spirit of wisdome, to themselves. And thus <hi>James</hi> 1.<note place="margin">James 1.</note>
+               <hi>If any man want wisdom, &amp;c.</hi> any man never so mean, so dispicable, so defective in it, who neither was borne with those naturall, nor bred to those acquired parts others please and pride themselves with, <hi>Let him ask,</hi> as a poor, humble, empty, needy soule, truly desirous of having God and not himself seen and acknowledged in him, and through him as his only wisdom. <hi>God will give,</hi> furnish <hi>freely,</hi>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>
+               <hi>simply</hi> without any respect of persons, <hi>liberally</hi> (where the heartloves simply, and of meer good will, the hand a<g ref="char:EOLhyphen"/>bounds) and to the full of all his indigency, <hi>(when the rich shall be sent empty away)</hi> God will (as it were) humble himself (in whom it is, <hi>humility to behold the Heavens (Psal.</hi> 113.) in his condiscension to him, not insulting over him with taunting and upbraiding reproaches of his folly and ignorance; when the Proud Pharisee salutes him with
+<pb n="11" facs="tcp:51895:6"/> scornes and scoffs, <hi>This people</hi>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>
+               <hi>turba haec</hi> this rude rabble of illiterate Mechanicks are cursed and know not the law; while the poor, humble heart tremblingly rejoyceth in, and g<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>veth glory to him who through the word of his Spirit and the Sp rit of his Word, <hi>hath made him wiser then his Teachers, Psal.</hi> 119.</p>
+            <p>As to be wise in a mans owne conceit is a desperate de<g ref="char:EOLhyphen"/>ceit and folly, because carelesse of Cure, so to be wise in the conceit, counsell and conduct of others, is not only the same, for the same reason, but more desperate, be<g ref="char:EOLhyphen"/>cause such being more secure then the other, and more con<g ref="char:EOLhyphen"/>ceipted even of their owne wisdome in choosing so many so well-sighted eyes to see <gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>y, they the more <gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oldly and blindly are led by the blind into the Ditch. And not only thus are they in a worse condition then the former, <gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ut in that they hold forth also an evideat symptome of a most ignoble and un manlike Spirit; suffering (that which should bee their Excellency in comparison of beasts) their under<g ref="char:EOLhyphen"/>standing to be brutified, to be backt and bridled, and them<g ref="char:EOLhyphen"/>selves switcht and spurred, to keep what way, and what pace the Antiquity-Assembly-ridden animal is put upon. Surely, if I would resigne my understanding to any man, I would to <hi>Paul,</hi> a man for divine and humane learning in<g ref="char:EOLhyphen"/>comparable; but should I, with a <hi>simple</hi> prefidency, <hi>believe every word</hi> of his! without <hi>looking well to</hi> my <hi>going (Pro.</hi> 14.15.) follow him any further then I see him follow ng Christ, I should meet with that notable rebuke of his, clearly implyed in his Encomium of those noble <hi>Bereans, Acts.</hi> 17.11.<note place="margin">Acts 17.11.</note>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> such as behaved them<g ref="char:EOLhyphen"/>selves as men of a more high and heavenly birth, more generous gallant Spirits (or as the <hi>French</hi> have it) more <hi>courageux,</hi> more ingenuous, of more Perspicacity, Ac<g ref="char:EOLhyphen"/>tivity, liberty of minde, more grandear, courage of heart, that they would not, they could not indure to have their faith &amp; reason hoodwinckt by the doctrine, &amp; bound up by the determinations of their greatest &amp; wisest schoolmen,
+<pb n="12" facs="tcp:51895:7"/> Synods &amp;c. But as not having their judgement pre<g ref="char:EOLhyphen"/>possest with the teachings of men, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. <hi>with all forwardnesse,</hi> freenesse, and readinesse of minde, with all chearfulnesse of heart, goe forth to meet, to embrace and entertain the word clearly, cor<g ref="char:EOLhyphen"/>dially, and obedientially: But surely so far as the Soul hath a pronesse toward, a pre-engagement to, the word, as the word of men, so far it hath an offwardnes and aversnes from it, as the Word of God. (1. <hi>Thess.</hi> 2.13.<note place="margin">1. Thess. 2.13</note>) <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>
+               <hi>dijudicantes, judging between,</hi> discerning, making use of their discretion, or (as the <hi>French</hi> read) <hi>conferans,</hi> so comparing the Scriptures with that which was held forth from them by the Interpreter, whether or no it was ac<g ref="char:EOLhyphen"/>cording with them, and comparing them with themselves, as to the matter in hand, to see that the result of them be the concord, consent, harmonie among themselves, how<g ref="char:EOLhyphen"/>ever seemingly to an unskilful and unwarie ear jarring and dissonant (the seeming contradictions of Scripture, being (not in it self, for therein lies it's Mystery and Majesty) a grand ground of Errors &amp; Heresies, through the vanity &amp; weak<g ref="char:EOLhyphen"/>nes, the wantonnes, and wilfulnes of the Readers &amp; Citers) So warily suspensive (as in things more ambiguous and contraverse also in fundamentals, as respecting the teach<g ref="char:EOLhyphen"/>ings of men) is wisdom, when folly is presently and peremptorily conclusive, outragiously confident and head<g ref="char:EOLhyphen"/>longly, in carrying both active &amp; passive evils, <hi>Pro.</hi> 14 15.<note place="margin">Pro. 14, 15.</note>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> There are then two necessary and unseparable Ingredi<g ref="char:EOLhyphen"/>ents in the composition of this Noble Ingenuitie. The one a pronenesse and promptnesse of receiving the Word, ari<g ref="char:EOLhyphen"/>sing from a Connaturalnesse with it, accompanied with a simple and genuine delight in it, as having its birth and ori<g ref="char:EOLhyphen"/>ginall from it, in its quickning and conforming power. The other (considering it as delivered by fallible man) an unsa<g ref="char:EOLhyphen"/>tisfied and uncessant activitie, searching, looking out, and labouring after the Truth, to see it in its own native and naked beautie, shining in upon, and enlightening the <milestone type="tcpmilestone" unit="unspecified" n="2"/> Soul, and not meerly through a dull and dark <hi>medium</hi> of humane representation, much lesse a painted glasse of self and sordid Interest, that either dimly, or defectively at best,
+<pb n="13" facs="tcp:51895:7"/> or else falsely and dangerously conveighs it with, if not quite darknes, defiles, and turns it into Error, by, the Tin<g ref="char:EOLhyphen"/>cture and Colour of the <hi>Medium</hi>
+               <gap reason="illegible" resp="#keyers" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> passeth through. A de<g ref="char:EOLhyphen"/>liberate, yea elaborate examination, without a readinesse and gladnesse of receiving, argues at best but a meerly Cri<g ref="char:EOLhyphen"/>tique and Sceptique Curiositie. Readily to receive, with<g ref="char:EOLhyphen"/>out an elaborate or deliberate examination, argues at least a fond and foolish Credulitie. That heedfulnesse without this forwardnesse, produceth but a pragma<g ref="char:EOLhyphen"/>tically-pated, whirly-gig-headed Novelist. This forward<g ref="char:EOLhyphen"/>nes without that heedfulnes, a precpitate and nose in-tail-following Antiquary. A Third Ingredient (and as necessary <milestone type="tcpmilestone" unit="unspecified" n="3"/> and unseparable as the two former, is implied in the Word <hi>Daily,</hi> Day by Day <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, intimating a waiting, sedate, settled posture of spirit (&amp; not through an impatient pride, a peremptory concluding on a present, or through a proud impatiencie, a perverse casting off the care and labor after a further, for want of a present, Attainment of the Highest and Acutest <hi>Apex</hi> of Knowledge) but a Cool and Calm, a Meek and Modest, a Sober and Stayd Humilitie of heart, willing to accept of, and be thankfull for the least &amp; lowest measure of true Knowledge at pr<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>sent, &amp; to wait with all diligence &amp; industrie, his season for the future &amp; fuller dis<g ref="char:EOLhyphen"/>covery, when he pleaseth, &amp; as he pleaseth. Such a diligence being the Cure of a Lethargical Antiquary; Such a waiting of a phrenetick Novelist. The Correspondencie &amp; Consort of these three, producing that Excellent accomplishment &amp; accōplishing Excellency of this noble, this royal Ingenuity.</p>
+            <p>There is nothing then doth more dis-innoble, imbase, <milestone type="tcpmilestone" unit="unspecified" n="1"/> and enervate the Soul, then a secure and confident Inad<g ref="char:EOLhyphen"/>vertencie, and next to that, a slight, supersiciall, and prefi<g ref="char:EOLhyphen"/>dent Advertencie, of the Teachings and Expositions of men. A most unworthy, wretched, and vile Spirit it is; a sottish, sluggish, slavish, a Pettie, pusillanimous Soul, that glibbly swallows down what by any men is put into the mouth of the minde, without trying and tasting it, without chewing and ruminating (<hi>Job</hi> 34.3.) A sottish Soul, that believeth every word (<hi>Prov.</hi> 14.15.) Takes all
+<pb n="14" facs="tcp:51895:8"/>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> upon t<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ust, that his Soul-Merchant commends to him as the word of God, as little or nothing caring, whether or no it be simply, sincerely, a<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d undeceitfully dispensed; (1. <hi>Pet.</hi> 2.1.<note place="margin">1 Pet. 2.1.</note>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>) and not hucksteriz'd (<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s the word is, 2. <hi>Cor.</hi> 2.17.<note place="margin">2. Cor. 2.17.</note>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>) not sophisticated and adulterated, palter'd and alter'd, mingl'd and mangl'd, by the partiall and sinister Interpret<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>tio<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s of men, rather bringing a sense to it, suitable to their own mindes and hearts, then receiving one from it, that might suit both to it self. A sluggard, who with a supine and sleepie oscitan<g ref="char:EOLhyphen"/>cie, with folded hands, closed eys, and drowsie ears, expo<g ref="char:EOLhyphen"/>seth himself to the reception of any thing, he or they, to whom he hath given up himself, in matter of h<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s Faith, shall administer to him; and yet in his own conceipt, is wiser in thus doing, then seven men that can render a rea<g ref="char:EOLhyphen"/>son (<hi>Prov.</hi> 26.16.) A pettie Soul, of no grandeur of spirit, <milestone type="tcpmilestone" unit="unspecified" n="4"/> who can be content to be cast into the scantie mould, im<g ref="char:EOLhyphen"/>prison'd <milestone type="tcpmilestone" unit="unspecified" n="5"/> in the narrow compasse of man's head. A cow<g ref="char:EOLhyphen"/>ardly slave, who <hi>Issachar</hi>-like, boweth down under the burden of an imposed Doctrine, D<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>scipline, and Worship; willingly suffering men to ride over his head, to exercise dominion over his Faith, and yet honours them as Bene<g ref="char:EOLhyphen"/>factors. (<hi>Luc.</hi> 21.25.<note place="margin">Luc. 21.25.</note>) so far is he from daring to conflict with the displeasure &amp; dispraise of them, who dare thrust themselves into the Throne of Christ, and justle him out of it, to rule and reign in the Consciences and Judgments of men. This is he who loves not the good word, and good will of God, but men, (<hi>Rom.</hi> 2.29.<note place="margin">Rom. 2.29.</note>) which he can never have, but by an outward (at least) conformitie, to his Soul-tyrants, but must expect all the scurrilous and scandalous sarcasmes, the bitter and biting invectives, the cruell and Canniball-like handlings, that a frothie wit, foaming rage, the insulting usurpation of a <hi>Haman</hi>-like Prelate (of what edition soever) can inflict upon a noble and gallan<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>-spirited <hi>Mordecai,</hi> who scornes to bow the knee of his Understanding, in doing homage, to defile his
+<pb n="15" facs="tcp:51895:8"/> tongue in swearing fealtie and vassalage, unto the most blasphemously arrogant and self-godding Infallibilitie of the haughtiest and harshest, the most supercilious &amp; surly of the sons of men. No, this is it that the truly high and Heaven-born Soul, in a trembling humilitie before, and awfull fear of Him, to whom it's only due, reserve's for Him.</p>
+            <p>But who, or where is he or they, (at least amongst Pro<g ref="char:EOLhyphen"/>testants) that will not acknowledge it only his due, to ab<g ref="char:EOLhyphen"/>solutely command the minde, who onely form'd it, and on<g ref="char:EOLhyphen"/>ly can satisfactorily and safely inform it? Surely, those are they, who in a faint and formall, a cold and comple<g ref="char:EOLhyphen"/>mentall way, bid their fellow-creatures, <hi>Judge what they say</hi> (as they cannot handsomly balk it, the word of truth not onely highly commending it here, but expressely com<g ref="char:EOLhyphen"/>manding it, by the highest and humblest of the Apostles, 1, <hi>Cor.</hi> 10.5.<note place="margin">1. Cor. 10.5.</note>) yet their expressions are at least whispering, and attempts by bloud and for bloud aloud threatning, this Cautionarie <hi>subaudi,</hi> that judge if, and as ye will, yet if it be not according to, and run parallell with, their rules and limits of Interpretation, judge with as much ingenui<g ref="char:EOLhyphen"/>tie, candor and clearnesse of minde, simplicitie and integrity of heart, deliberatnesse and studiousnesse of thoughts, hu<g ref="char:EOLhyphen"/>militie and self-abhorrencie of spirit, s<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>lf-suspition and fearfulnesse of our own apprehensions, ardencie and inces<g ref="char:EOLhyphen"/>sancie of prayer, industrious and diligent conference for enquirie after the Truth, meek and modest declaration of it, they will yet wrest the Civill Sword out of the Magi<g ref="char:EOLhyphen"/>strates hand, (or which is worse, themselves being Judges, make him the <hi>Carnifex</hi> the Executioner) to confound where they have not skill, no nor will enough by the sa<g ref="char:EOLhyphen"/>cred Sword the Word and power of the spirit to con<g ref="char:EOLhyphen"/>vince their gain-sayers, as speaking either consonantly or dissonantly to the Great &amp; im<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>artiall Judges, of all persons &amp; things. What greater mockerie and grosser juggle! Yea, such is puts a kinde of honestie upon an absolute and to<g ref="char:EOLhyphen"/>tall,
+<pb n="16" facs="tcp:51895:9"/> a plain and positive prohibition of Scripture-reading. Bid a man look upon the Sun-diall, but trust not to the Sun, but Candle-light. Take a view, make judgment of the Letter of the Word, but not by the Spirit, but mans Inter<g ref="char:EOLhyphen"/>pretation. The Letter being the lock that must be open'd, to give the minde entrance to the <hi>penetraliae veritatis</hi> the secret receptacles of truth, the Spirit the Key; that the Body, this the Soul.</p>
+            <q>
+               <l>Where then are they, this Key, this Sun, this Soul,</l>
+               <l>With <hi>Romish</hi> Faith and Fore-head dare controul,</l>
+               <l>As False, Dark Dead, where e're it works above</l>
+               <l>VVhat their Minds, Methods, Measures will approve.</l>
+            </q>
+            <p>
+               <note place="margin">1 Cor. 2.</note>
+               <hi>No man knoweth the things of a man, but the Spirit which is within him; but he hath by his Spirit, who search<g ref="char:EOLhyphen"/>eth the deep things of God, reveal'd them to us (without accepting</hi> and excepting <hi>any mans person.) VVe who are spirituall, have</hi> (as such and for so far) <hi>the Minde,</hi> and know the meaning of <hi>Christ;</hi> and <hi>so know all things,</hi> that we are not, we ought not to be judged of man (as to the things of God, though not of <hi>Caesar,</hi> Supernatural, though not Natural Light) the want of regard to which Scripture-distinctions, is the grand ground of all our calamitie &amp; con<g ref="char:EOLhyphen"/>fusion.) But he who not only discretively and consultively judgeth, but also definitively and punitively, will act the part of a Civill Judge in the things of God, he takes upon him not onely to be equall with, but above the Lord in point of knowledge, to <hi>Instruct the Spirit of God</hi> (for so <hi>Piscator</hi> well understands the word <hi>Lord</hi>) (1. <hi>Cor.</hi> 2.) to judge the Spirit, <hi>to limit the Holy One of Israel,</hi> in any whom he pleaseth to inspire with spirituall Instruction. And if against the Common-Prayer, it were a valid Argu<g ref="char:EOLhyphen"/>ment urged by some men of this leaven, That it stinted the Spirit of God; why holds it not as well in stinting the same Spirit of Prophesie? Is not the Spirit of the Lord as Holy, as true, as free in the one, as the other, but he must be judged an unholy, a false Spirit, if not keeping
+<pb n="17" facs="tcp:51895:9"/> to that Compasse of Truth and Holinesse, wherein wee would circumscribe him? Is he nothing more vast, more comprehensive then out Conceipts? And surely they are not far from the very brink of that Bottomlesse sin, who living under, yea and highly professing the Gospel, say, that any who speaks and acts from his Spitit, speak and act from a<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Unclean Spirit (<hi>Mark</hi> 6.) And though ma<g ref="char:EOLhyphen"/>ny and great evill Consequenc<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s, may accidentally, and not by a proper and naturall deduction, follow upon an extra<g ref="char:EOLhyphen"/>ordinary Warinesse and Tendernesse in this kind, (besides that it is even in the judgment of <hi>Aristotle,</hi> a most un<g ref="char:EOLhyphen"/>worthy, vulga<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, low-spirited Argument, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, to make things that follow after, necessarily to slow from the Antecedents, and so to confound Effects and Con<g ref="char:EOLhyphen"/>s<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>quences:) All the evils of sin, much lesse of sorrow, of Ini<g ref="char:EOLhyphen"/>quity, much lesse of Misery, cannot in the least be compa<g ref="char:EOLhyphen"/>rable to that sin that admits of no Redemption. And safer is it to fall into many Ditches, that we may get out of a<g ref="char:EOLhyphen"/>gain, then into One, whence there is no Recovery. N<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t an hundred Errors therefore are in the least condemnable to that Grand, Criminall, and Capitall One, of reputing and reproaching the Spirit of the Lord, as speaking in any man after any Manner or Measure, for a Spirit of Error, Secta<g ref="char:EOLhyphen"/>risme, &amp;c. and so not the Spirit of Christ, but an Unclean spirit. Because Sathan transforms himself into an Angel of Light, to shun him th<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>refore, by metamorphosing the Spi<g ref="char:EOLhyphen"/>rit of Light into a spirit of D<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rknesse, will prove a mad In<g ref="char:EOLhyphen"/>ference, a sad, if not Infernal Excuse. To count and call <hi>Mo<g ref="char:EOLhyphen"/>ses</hi> a Jugler, because <hi>Jann<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s</hi> and <hi>Jambres</hi> went so far and so near in resembling him. Whereas we are not to judge according to the appearance, but to judge righteous judg<g ref="char:EOLhyphen"/>ment, <hi>Iohn</hi> 7.24.<note place="margin">Iohn 7.24</note>
+            </p>
+            <q>
+               <l>There is no Wrong, no Counterfeit, but hath</l>
+               <l>Its Right and Truth; 't's a slie and subtle path</l>
+               <l>The Serpent winds in t'liken so the one</l>
+               <l>To th'other, that they hardly can be known.</l>
+               <pb n="18" facs="tcp:51895:10"/>
+               <l>Discretion is Discerning, he</l>
+               <l>That see's but black from white, can't see:</l>
+               <l>But he 'tis see's that seeth well,</l>
+               <l>The lightest gray from white can tell.</l>
+               <l>O that in thy Light we could see the Light</l>
+               <l>Dear Lord! Els Night is Day, and Day is Night.</l>
+            </q>
+            <p>Not many E rours, no nor Heresies constitutes Anti<g ref="char:EOLhyphen"/>christ; but one Counterfeit Commission, false Anointing, under pretence of, setting it self against, and presecuting, the True, the Spirit of Christ under what name and noti<g ref="char:EOLhyphen"/>on soever mis-represented. When men kisse Christ, while they go about to kill him; making humane preparations, qualifications, Instaurations, &amp;c. offering their service to, yet to oppugne and usurp authoritie over the divine In<g ref="char:EOLhyphen"/>spirations and Transportations of the Spirit (I speak not in the least of revelations besides, and contrary to the writ<g ref="char:EOLhyphen"/>ten Word, the Rule of Righteousnesse and Truth, but In<g ref="char:EOLhyphen"/>terpretations upon it, and according to it) But this is the Yoak of the false Anointing that shal be destroyed because of the True, <hi>Esai.</hi> 20.27.<note place="margin">Isai 20.27.</note> Because of that Anointing on them (1. <hi>Iohn</hi> 2.26, 27, 28.<note place="margin">1 Iohn 2.26, &amp;c.</note> compar'd) who are here cau<g ref="char:EOLhyphen"/>tion'd, against the seducing fraud of pretenders, the incroa<g ref="char:EOLhyphen"/>chings of Antichrist, by taking heed to the teaching of this, and counsell'd against their compulsive force, by abi<g ref="char:EOLhyphen"/>ding stedfast in this, as having no need to be taught by men as meer men, as coming in competit on with, standing in opposition to this, but only as the same Anoin<g ref="char:EOLhyphen"/>ting teacheth them, in and through men. These are the Prophets, the Anointed of the Lord, who are taught by him, to teach him; who though they are lookt upon as a few poor, pettie, despicable, strange, fellows innovating and invading Church-Priviledges and Prerogatives, yea turn<g ref="char:EOLhyphen"/>ing the World up-side down, he will not suffer the Lofti<g ref="char:EOLhyphen"/>est and Lordliest of men, no not so much as to touch them, (<hi>Psal.</hi> 105.12, 13, 14, 15, &amp;c.<note place="margin">Psal 105.12, &amp;c</note>) but hee'll so sharply and sorely rebuke them, as shall make their very hearts ake
+<pb n="19" facs="tcp:51895:10"/> for't, shall loose the joints of their loins, and make their knees smite together, if they humble not their hearts, when all this is made known to them, (<hi>Dan.</hi> 2.25.)</p>
+            <q>
+               <l>
+                  <hi>Magna petis Phaeton, &amp; quae non viribus istis</hi>
+               </l>
+               <l>
+                  <hi>Conveniunt;</hi> —</l>
+               <l>
+                  <hi>Jam caveas, dum res{que} sinit tua corrige nota.</hi>
+               </l>
+            </q>
+            <q>
+               <l>Too great things seek ye, and beyond your strength,</l>
+               <l>Be Wise and Warie, and return at length (<hi>Ps.</hi> 2.)</l>
+               <l>Before it be too late. —</l>
+            </q>
+            <p>But <gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>are yee indeed Gods and not men, intuitively, and not discursively to behold, precisely and pun<g ref="char:EOLhyphen"/>ctually to determine what's, Truth, what Error, without all possibilitie of being <hi>deceived,</hi> and so <hi>de<g ref="char:EOLhyphen"/>ceiving?</hi> Why do you not plainly and positively tell us so, without any dodging or dissembling, (that we might fall down and worship ye) and bid us expressely, as you do implicitely, confide in, and not in the least <hi>punctilio,</hi> re<g ref="char:EOLhyphen"/>cede from your judgement, without expecting the brand of Heterodox, if not the bang of Heretiques. But are you men and not Gods, subject to the like misprisions and pas<g ref="char:EOLhyphen"/>sions, as others of the same clod of clay? Would not then Philorthodox, with the modest Philosopher, better become you then Orthodox, as if you were to be the perfect Re<g ref="char:EOLhyphen"/>gulators, and perpetuall Dictators to all other men in di<g ref="char:EOLhyphen"/>vine knowledge, <hi>exercising dominion over their faith,</hi> and <hi>not helping their joy,</hi> (1. <hi>Cor.</hi> 1.24.<note place="margin">2 Cor. 112.</note>) in their free, judici<g ref="char:EOLhyphen"/>ous, and spontaneous, closing with what they have per<g ref="char:EOLhyphen"/>ceived as Truth, but giving them abundant cause of grief and sadnesse, by your imperious and impetuous obtrusion of your Scripture-Descants and Glosses, to be received for Truth; yea, and that even by them who have not onely the Word of Truth to judge by, but the Spirit of Truth to judge with. For, are they wise men, spirituall, sin<g ref="char:EOLhyphen"/>cere, perfect men (1. <hi>Cor.</hi> 10.15. with 1. <hi>Cor.</hi> 2.6. and 15.<note place="margin">1 Cor. 10.15, with 1 Cor. 2.6, and 15.</note>) you have to deal with, and so have the spirit of Discerning (the Apostle making no difference but between spirituall
+<pb n="20" facs="tcp:51895:11"/> and naturall) if they are as, or any of them, more, clear, quick, strong-sighted then your selves, will you blame, will you bite and devour them? If any of them dimmer, dul<g ref="char:EOLhyphen"/>ler, and weaker-sighted, will you beat and buffet better eys into them? But on the other hand, are they meerly na<g ref="char:EOLhyphen"/>turall men <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, men of Soul onely, or (as the <hi>French</hi> read) animals, and not of the Spirit, that discern nothing at all of the things of God, as the things of God, wil you be as mad men in attempting the Cure of blinde men with a Beetle? Knock them on the head with fines, prisons, exiles, &amp;c. to bring them to their sight? So that whatsoe<g ref="char:EOLhyphen"/>ver way you turn, how you can extricate your selves out of this double <hi>Dilemma,</hi> into which you have so deeply, if not desperately involved your selves, I see not. Are you gods? Why do not your words expressely, as well as your actions tacitely tell us so? But are you men? Why then assume you such titles, and take such courses? Deal you with them who see as much, or more then your selves? Why envie ye? who see nothing at all, why rage ye?</p>
+            <p>But well would it be both for you and us, would you not onely not have us believe every thing you say, but would you but believe somthing that you say your selves. Is not this the sometime language of your Prayers and Preachings, Assist me the weakest and unworthiest of all thy servants, <hi>Who is sufficient for these things?</hi> Our mindes are dark, affections crooked, wils perverse, <hi>there is none that understandeth, we are all wandring and erring from the way. (Ps,</hi> 14.). Are you in jest ot in earnest? Do ye complement, or are cordiall? You will not say the for<g ref="char:EOLhyphen"/>mer; If the latter, Why then Lord you it over the Lords Clergie <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> (so is the Laitie there call'd) (1. <hi>Pet.</hi> 5.3) And note, there were no Lord Bishops in those dayes, but Lordly and <hi>Diotrophes</hi>-like Over-seers, as wel as in these. The spirit of Antichrist was then working; but grew up afterward by degrees higher and higher, til under pretence of Uniformitie in the things of Christ, with open face at
+<pb n="21" facs="tcp:51895:11"/> length it appear'd to be the Deformitie of Antichrist; and Mysterious Iniquitie, became manifest Iniquitie. And as by degrees he increast, so doth he decrease: He got the power before the pomp, but he will leave the pomp before the power. He wil quit the Palace the better to keep the Castle. Neither is it the grossest of policies, in seeming humilitie to disclaim, yea, to declaim the pomp the more faisibly and facilely to pull down the poss<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ssors of both, and so at<g ref="char:EOLhyphen"/>tain, retain and exercise the Power. But to sit as gods in the Temple of God, to rule all in the mindes and con<g ref="char:EOLhyphen"/>sciences of men, or else to ruine all that will not be so rul'd, and yet not professedly to claim an absolute infali<g ref="char:EOLhyphen"/>bility (if I may use but your own comparison between Malignants and Sectaries) is so much worse then Popery, by how much a white Devil is worse then a black. To say that we are nothing sufficient for the Dispensation of the mysteries of the Gospel, ye<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap> to grant, that <hi>we know nothing as we ought to know, see nothing, but as</hi>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> (1 Cor. 13.<note place="margin">1 Cor. 13.</note>) <hi>but as in a Riddle,</hi> made up of seeming contradictions, and declare it but as children, so brokenly and confusedly, that its hard to know what to make of it; and yet as if it were not in the least either soor so, but as if for a distinct and perfect know<g ref="char:EOLhyphen"/>ledge, an evident and demonstrative utterance of all the truth, and nothing but the truth, we had at least the very conceptions and tongues of Angels (though we know too they bowed themselves down, and that with earnest and affectionate desire <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> (1 <hi>Pet.</hi> 1.12.) to lo k into those deep and divine Mysteries) and yet to attempt the binding up of all men <gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n our thoughts and words, to resolve to make a forcible entry by our world<g ref="char:EOLhyphen"/>ly-weapon-armed judgements, for the taking and keeping possession of the judgements of others, how notoriously not onely in it self, but in respect of the forementioned confessions, and professions, far more then Absur'd it is! When what you have decreed for truth, you will never
+<pb n="22" facs="tcp:51895:12"/> leave inculcating it (in a proper sence, though most impro<g ref="char:EOLunhyphen"/>per way) til you have kick't it into men, or else kick't them out, not onely of Ecclesiastical, but humane Society and Comfort; yea not onely those who see not what you see, but who see what you s<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e not, and not onely dare not say what you say, but dare not but say what you say not.</p>
+            <p>You confess again, you have not onely heads dark, but hearts deceitful like o<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>her men, But is <hi>the desperate wick<g ref="char:EOLhyphen"/>edness &amp; deceitfulness</hi> of our hearts naturally as much &amp; as hard to be known as other m<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ns, and yet too is there no possibility of our being deceived? Is it impossible, think ye, that either your crowns or your credit, your re<g ref="char:EOLhyphen"/>venues or respects, should by an unperceiveable Channel have influence upon your judgement, to the tempting or tainting it with a prejudicial prefidencie of, and pre-inclination to, that as truth, which your fleshly appetite (for surely there is somewhat of it in us all, as all in some) tells you it is good for you that it so be; May not such <hi>bribes blinde the eyes of wise:</hi> Yea, surely the two princi<g ref="char:EOLhyphen"/>pal and proxime causes of error, either in minde or life, are <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> and <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> of which <hi>Timothy</hi> was so care<g ref="char:EOLhyphen"/>fully warned, 1 <hi>Tim.</hi> 1, 21.<note place="margin">1 Tim. 1.21.</note>
+               <hi>Forejudging of,</hi> &amp; <hi>foreinclining to</hi> a thing; they being such as make prayer it self a meer Mocquery, <hi>Jor.</hi> 42. so that the pre-engagement of the af<g ref="char:EOLhyphen"/>fections, and consequently the understanding may make you look upon, and in your fancies skip over mountains of Arguments against you as mole-hills, while as upon rocks and mountains you build upon the mole-hills of Arguments alledged by you and for you. How could the Disciples compel men to come in, but by the powerful and prevalent perswasions of the Gospel, the Word and Prayer? In the case of <hi>Tyatira</hi>'s suffering <hi>Jezabel,</hi> the state of the controversie is evidently and expresly altered, it respecting Fornication and Idolatry; besides, what force had they under an heathen Emperor, more then
+<pb n="23" facs="tcp:51895:12"/> Church power? The Kings of <hi>Iudah</hi> whom they typified who knows not? The thrusting through the idolatrous Prophet, whom doth it more threaten then those that set up themselves in the Temple of God as God? (for leave the narrow and strickt sence, and then we know all sin is idolatry.) What sword (beside what heart) had <hi>Paul</hi> (unles you will arm him as the Pope doth) to cut men off with, except that pertinent and when duly denounced most pre<g ref="char:EOLhyphen"/>valent one of excommunication? or would he have God to do it? would he therefore have men? or who trouble most the Churches, those that peaceably propose, or those that do all they possibly can to impose; those that give that Christian liberty they take themselves, or those that would have all, but give none (<hi>Gal.</hi> 5.<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, 12, 13.) <hi>Et sic de caeteris.</hi> Thus what is the monstrous Metamorpho<g ref="char:EOLhyphen"/>sing power of love, is here apparently seen, as in com<g ref="char:EOLhyphen"/>mon experience, especially in conjugal love, as to Forms, Figures, Quantities, how it turns black into white, crooked into straight, little into great, <hi>&amp; vice versâ.</hi> Is there nothing, nothing of self-love? nothing of pride (I speak it compassionately and tenderly) left within you? so wholly mortified and extinct in us, that we are perf<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ctly perfect both in head and heart? nay surely as in that respect, it is possibly we may as soon and as much be deceived as some others; so otherwise more then possible, even very probable, we may sooner &amp; more then some others, a<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d that both in regard of Satan and our selves; we have more learning, parts, humane ac<g ref="char:EOLhyphen"/>coutrements to relie on, rest secure in, and be pufft up with, then other men; and not onely so, but can make more earthly advantage and accommodation thereby to our selves, then others destitute thereof; and so have a double temptation to encounter with that most other men have not: And for Satan, he is no more a subtle Serpent, if he applies not himself much rather (though more if so much, it may be he need not) to the deceiving
+<pb n="24" facs="tcp:51895:13"/> of us rather then others, because that succeeding he kills so many birds with one stone, catcheth so many at one pull, while so many hundreds and thousands are securely singing the same note, and following the same way with us, till they be Decoy'd and meerly drawn in to the same net. But to pass as from possibility to probability, so from that to certainty of our deceivableness; is it not notoriously known, that many now of this way, and harsh-hearted, high handed, propugnators thereof, have and that not many years since been the zealous Assertors, Vindicators and Observers of, most grosly promiscuous, Communicating Common-Prayer, Christmas, Easter, &amp;c. and did they afterwards at once for all, exactly and to a hairs breadth, jump neither besides nor short of the Truth? may not the Sectary, the Scismatick, yet be before us in other things, as then in these?</p>
+            <p>And now how feelingly my bowels work toward you, how strongly my heart longeth after you in the Lord, he knows; O that, O that (is my frequent and fervent prayer) he that sits (and will not be unseated) as a re<g ref="char:EOLhyphen"/>finer, would with his refining fire and fullers soap, <hi>Mal.</hi> 3.2, 3, &amp;c. purge away also even our dross and filth, and make us so simply and humbly pure in heart and minde, that we may see him, go along with him, and not withstand him in, lest we perish from, the way of his present power<g ref="char:EOLhyphen"/>ful and irresistable dispensation; that we may not have so much as the top of our little finger in partaking with <hi>Babylon,</hi> leave not so much as a hoof, not the least thing appertaining to us, in <hi>Egypt,</hi> lest though but in that we be partakers of her plagues; a light sprincking, whereof is more dismal and dreadful then a whole storm of others, in regard of their spiritualness and in<g ref="char:EOLhyphen"/>wardness,<note place="margin">Rev. 16 9, 10, 11.</note> impenitence and anguish of heart. Too high have the thoughts been I have had of you, too fond the affection I have born to you, too zealous, if not pas<g ref="char:EOLhyphen"/>sionate, my pleadings for you, and not hastily and rash<g ref="char:EOLhyphen"/>ly,
+<pb n="25" facs="tcp:51895:13"/> but soberly and deliberately, in these respects; fell off rom you, as I perceived your design more and more ap<g ref="char:EOLhyphen"/>parently and palpably discovering it self through you; and still, still am <hi>I jealous over you with a godly jea<g ref="char:EOLhyphen"/>lousie, least your hearts should be beguiled from that simplicity</hi> (O that simplicity!) <hi>which is in Christ Jesus.</hi> I cannot but speak to you from, speak for you to, as loving and pittying you, in the Lord, while your con<g ref="char:EOLhyphen"/>tempt and hatred of envyings and inveighings, rise higher and higher against them who differ from you even but in circcumstantials,<note place="margin">Gal. 5.1.</note>
+               <hi>Dare not be entangled again in the yoke of bondage, but stand fast in the liberty wherewith Christ hath made them free,</hi> as knowing the loosing of that is the way to fall, yea into such entanglem<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nts and ensnare<g ref="char:EOLhyphen"/>ments, as when once in, the getting out is very difficult. the continuing in very dangerous.</p>
+            <p>But a little more to perswade us to candor and meek<g ref="char:EOLhyphen"/>ness toward those who d<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ffer from us, once again take a view of <hi>Paul,</hi> an example well worthy observing both in minde and practice, following him herein, we follow Christ (how dark were his Disciples, and that in mat<g ref="char:EOLhyphen"/>ters of great moment, but he how tender and gentle?) Behold his demeanure towards believers, discenting in matters of faith, and yet consenting in the matter of faith, concentering in the root of the matter, the Lord Jesus, <hi>Job:</hi> There were three notable Differences or Sects (if you please) even in the Apostles time, Days, Meats and Circumcision: The one party was in the truth, the other the error; doth he childe-like fall on calling of names, Sectaries, Scismaticks, &amp;c. doth he side in with the one party to widen the dif<g ref="char:EOLhyphen"/>ference, laying all the blame, and falling foul on the other? doth he not sweetly and safely, wisely and meekly play the Moderator? doth he now as <hi>Saul</hi> breath out threat<g ref="char:EOLhyphen"/>nings, fire and fury against those who worship God in that way which some would call Heresie, and certainly was an Error? doth he not as <hi>Paul</hi> (who had had expe<g ref="char:EOLhyphen"/>rience
+<pb n="26" facs="tcp:51895:14"/> enough of a persecuting spirit, blinde zeal, &amp;c. now grown warier and wiser) say, Let not any man be compelled by our minde, but perswaded, and that fully in his own minde (<hi>Rom.</hi> 14.5. the whole Chapter be<g ref="char:EOLhyphen"/>ing exceeding remarkable in this case) <hi>Is not the single eye</hi> (v. 6.) <hi>The heart established in grace</hi> (Heb. 13.9.) <hi>The new creature</hi> Gal. 6.15,<note place="margin">Rom, 14. Ga 6 15 with heb. 13.9. Gal. 5.6. Rom. 14.17.18, 19. Phi. 3, 3.</note> with 16.) <hi>Faith working by love</hi> (Gal. 5.6.) <hi>A holy, righteous, peaceable and joyful serving and worshipping of God in the spirit of the Lord Jesus, as having no confidence in the flesh</hi> (which may be even in spiritual things) that which he designs and proposeth to establish and setle them with, as the best way, onely means, to make them live peaceably &amp; profitably amongst them<g ref="char:EOLhyphen"/>selves, acceptable to God and men; as if he should say, you will render your selves very unserviceable, very un<g ref="char:EOLhyphen"/>acceptable to God and all men, while yon stand wrang<g ref="char:EOLhyphen"/>ling and jangling with one another about such a particu<g ref="char:EOLhyphen"/>lar path, while you might all walk together with peace and proficiency, <hi>in viâ regiâ,</hi> in the known road of sin<g ref="char:EOLhyphen"/>cere-heart and life, renewing Christianity, according to what you have received, till God shall otherwise reveal to you who in other things (circumstantial, accidental and superstructive, and not fundamental, essential and sub<g ref="char:EOLhyphen"/>stantial) are otherwise minded; all things will prove but eccentrical and to no purpose, but as in and by all you experimentally know the death and life of the Lord Iesus, and promote that one and onely Design of being cruci<g ref="char:EOLhyphen"/>fied and killed with him to your selves, enlivened and raised again onely in him &amp; to him, <hi>Phil.</hi> 3. from <hi>v.</hi> 3. <hi>to</hi> 17.<note place="margin">1 Thess. 5, 20. Phil. 3.3. from ver. 3. to 17.</note> so try so debate all things, that you may be sure the whilest not to let go your hold off, but that you may take faster hold on that which is good, and that is not that the heart be established with meat, but with the grace and know<g ref="char:EOLhyphen"/>ledge of our Lord Iesus (may know more in the power fo his grace, to the praise of grace) <hi>Heb.</hi> 13.9. with 2 <hi>Pet.</hi> 3.18, &amp; 17.<note place="margin">Heb. 13.9. with 2 Pet 3.13.</note> the better established you may think your selves
+<pb n="27" facs="tcp:51895:14"/> in the one, the more unsteadfast may you be in the other; while you stick in the bark, you may expect but little sap from the root, but look to wax drier and drier, and contract more and more moss; What fruit think you to bring forth pleasing either to God or man? Thus see we how meekly and sweetly, how safely and wisely the Apostle takes up, and makes up these differences; those indeed who are evil workers, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> taskers to con<g ref="char:EOLhyphen"/>cupisence, workers of iniquity, unequalness in not do<g ref="char:EOLhyphen"/>ing as they would be done by, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Psa.</hi> 5.5. with <hi>Psal.</hi> 97.7.<note place="margin">Psal. 5.5. with Psa 97 7.</note>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> that are mad upon, make themselves mad with, boast themselves of their Idolatrous Imaginations and Observations, such he calls dogs, <hi>Phil.</hi> 3.2.<note place="margin">Phi. 3.2.</note> such Cynical men as are so violent and tumultuous in their Opinions, Forms, Ways, that they will obtrude them upon, to the subjugating of, others, or else they will snarl and snap, bark and bite, if not de<g ref="char:EOLhyphen"/>stroy and devour.</p>
+            <p>As a further Antidote against such fury, we may well take the serious consideration of our ignorance, even in natural and civil things, with the ingenuous confession thereof by men signally and eminently wise. For natu<g ref="char:EOLhyphen"/>rals, <hi>Iob</hi> 28.<note place="margin">Iob 28.</note> especially his Epiphonema in the last verse. <hi>But to man he saith, the fear of the Lord is wisdom,</hi> &amp;c. Eccles. 8.17. with the 12, 13.<note place="margin">Eccles. 8.17. with 12.13.</note> What monstrous Hereticks in Physick were the Paracelsians condemned for by the Galenists divers years together, and yet their Principl<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s and Practises otherwise afterward resented and received by many of them. The circulation of the blood how rejected, and yet now how taking? &amp;c. How the ma<g ref="char:EOLhyphen"/>ximes of Philosophy have been tost and turn'd upside down both of old and to this day is not unknown to men verst therein. What Sects of Peripatericks, Stoicks, Epi<g ref="char:EOLhyphen"/>curians, Cynicks, &amp;c. For a Civil case take the Modesty of <hi>Paul</hi> in point of Marriage, 2 <hi>Cor.</hi> 7. <hi>v.</hi> 25. &amp; 40.<note place="margin">2 Cor. 7.25 and 40.</note> But then if in those cases we are so to seek, how much more
+<pb facs="tcp:51895:15"/> in things purely spiritual, meerly supernatural? If in those former, an Aristotelian or Iustinian <hi>Ipse dixit</hi> be worthi<g ref="char:EOLhyphen"/>ly exploded and hissed out from all ingenuous Debates, how much more then in these should nothing be received but, <hi>Thus saith Iehovah?</hi> But even in these to make In<g ref="char:EOLhyphen"/>structions of whipcord and iron, instead of divine reason and authority, which even the greatest of those heathen Masters of wisdom abhorred in naturals, what to call it any thing near it's desert, I know not.</p>
+            <p>Consider also a dreadful evil effect or two of forcing men, either blindly or doubtingly (and so in both respects sinfully because not of faith) to your obedience. If he be damned who doubtfully eateth (<hi>Rom.</hi> 14.<note place="margin">Rom. 14.23</note> the last) holdeth communion with us, if he be condemned (at least as to that) how much more we who force him thereunto.</p>
+            <p>And what thank<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap> think we the Lord Jesus will give us for making him a King of Slaves, when he would be, and will be of free men, <hi>Psal.</hi> 110.<note place="margin">Psal. 110.3. with Ps. 51.12.</note> A King of Kings of free and princely spirits (<hi>Psal.</hi> 51. (<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>) A King of hypocritical and false hearted, or of true and entire spi<g ref="char:EOLhyphen"/>rited subjects? The Beauty, the light and Holiness of Truth that is it which is the conquering power of the mind, its life and loveliness, of the Heart. Shall we then fright and ferret men out of the safety of a living power into the deadly net of a liveless Form? Yea while we bid them look cluesly to the power, yet your selves chiefly, that is with such frequency &amp; fervency, with such heat &amp; height so incessantly, vigourously and vehemently presse and urge to the Form, and so seldom and faintly to the other; while so keenly and eagerly wher the sword of the Magistrate, incite the hearts and strengthen the hands of the people against the opposers of the one, and so superficially, in comparison, so tenderly touch the oppugners of the other. We know who they were who Tithed Mint and Anise, but neglected the weightier things of the Law. That,
+<pb n="29" facs="tcp:51895:15"/> when God's commands favour'd their commodities, this, when their commodities were not well served by God's commands.</p>
+            <p>Again have we so far forgot that good Theologicall, as well as Logicall rule, <hi>Non transcundum est agenere ad genus.</hi> O that we would weigh it well! O how Hete<g ref="char:EOLhyphen"/>rogenall, incongruous, unworthy of, unsutable to, inef<g ref="char:EOLhyphen"/>fectual for, such a work, such an end, is such a way. To teach men truth by briars and thorns? 2 <hi>Cor.</hi> 10.4, 5. will we or can we think,
+<q>
+                  <l>With clubs and staves to put the shades to flight,</l>
+                  <l>With swords, spears, force the Rising of the Light.</l>
+               </q>
+            </p>
+            <p>Yea, How we strengthen the root while ye but (and by this course can but) lop the branches? We but pare and prune Error in the outward man to make it thrive the better in the inward. Never did Quack-salver more notoriously palliate a cure.</p>
+            <p>But how ever dangerous it is to the Patient it is surely nothing advantagious to our Humility and Industry. Its no marvell if he hath great thoughts of himself and little mindes others, either in earnest incessant prayer or care, who is apt to think all well done, that those he works to cannot or dare not tell him is ill done.</p>
+            <p>Again while we betake our selves to such weapons what consciousness of the weakness and unsoundness of our Cause doth it bewray? <hi>Magna est veritas &amp; pre<g ref="char:EOLhyphen"/>valebit.</hi> Great's Truth and will prevail. No say we it must be beholding to us for the strength of steel, or't will never. But shall we, O shall we lie for God as a man would lie for his friend, <hi>Job</hi> 13.7, 8. with <hi>chap.</hi> 42.7.<note place="margin">Iob 13.7, 8. with ch. 42.7.</note> Would it excuse <hi>Jobs</hi> friends, that their zeal against him was (as they thought) for the vindicating of God? That they cast <hi>Job</hi> out of their charitable thoughts to advance God in a way so displeasing to him. Was there no way to make God righteous without making <hi>Job</hi> an hypo<g ref="char:EOLhyphen"/>crite? Doth the persecution of our brethren either in
+<pb n="30" facs="tcp:51895:16"/> heart, tongue or hand, praise him any otherwise then the wrath of man that kindles the wrath of God? (<hi>Job</hi> 42.7.<note place="margin">Job. 13.7.8 with ch. 4.2.7</note> Are they blinde intentions that please him? Are we promist to be accepted in, to be kept about his Work, out of his Way? May not Self slylie and surrepticiously conveigh it self into, strike the greatest stroke, bear the greatest sway in, become the ultimate and make God and his service but the mediate End of, even such intentions, while they're not warily, watchfully and warrantably re<g ref="char:EOLhyphen"/>gulated? What good are we like to get or do by doing evil? Will God be glorified by our lie, <hi>Rom.</hi> 3.7, 8. Stands he in need of such an unworthy and highly dishonour<g ref="char:EOLhyphen"/>ing officiousness in a way of folly and falshood to help him as it were at a dead lift? Have we not read of him (poor heart) who put forth his hand to uphold the shaking Ark? Would we not have said, he had done well, had we not seen him therupon fare so ill? What? not uphold the wor<g ref="char:EOLhyphen"/>ship the Truths of Jesus Christ, yea &amp; be thorns in the eys, and goads in the sides, if not cut the throats too of them that shake it? Is not this the doing of God good service? <hi>But alas this perswasion is not of him that calleth us.</hi> How hard, but how happy it is to know of what kinde, of what manner of Spirit wee are! Who would force upon men the entertainment of Jesus Christ, the Truth, and the Truths of Jesus with Fire and Sword? Yea, upon them who have received him, and with all their hearts would receive him, but as seeing him (at least as they think and judge) setting his face and going another Way then wee would direct, yea drive them into, choose rather to follow and meet him in his own, then in our way. The wrath of man works not forth the righteousnesse of God, (<hi>Iames</hi> 1. 19, 20, 21.<note place="margin">Luk 9.53, 54, 59, 57 Iames. 19. &amp;c</note>) but the partiality of man, who loves not his neighbour as himself, nor will deal with him, as he would be dealt with by him. This is the Wisdom which is from beneath, carnall, sensual and serpentine (<hi>Iames</hi> 3.<note place="margin">Iamas 3 the whole chapt.</note> the whole Chapter) to hisse, sting, bite and kill; and not that which
+<pb n="31" facs="tcp:51895:16"/> is from above, which being first pure (simply and singly re<g ref="char:EOLhyphen"/>specting God, and not intermixedly if not meerly self) is therefore peaceable, gentle, (exhorting with all long-suffering and meeknesse, waiting if at any time, &amp;c. (2. <hi>Tim.</hi> 2.24, 25, 26. and 4 2.) easie to be intreated, (not high, harsh, inexorable) full of mercy and good (of pitty<g ref="char:EOLhyphen"/>ing, sparing, soul and body benefiting) fruits, without partialitie, without hypocrisie. Again and again I say, let us fear, let us fear our own hearts. Why do we so parti<g ref="char:EOLhyphen"/>ally and peaceably (with such a kinde of peace as it is) and not purely love those of our own Way and Opinion, de<g ref="char:EOLhyphen"/>test, declaim, prosecute, if not persecute those differing from us (yea even those whose hear<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s we cannot but, at least ought not but think, are centered in the Lord Jesus, though run forth to him by another line, are built upon the same Foundation, though not in every part squared and laid like us.) Have we received Jesus Christ the Truth in the love of him, &amp; not humane Tradition, sinister respects why love we not them also, who have so received him though it may be, cannot yet see, and therefore not re<g ref="char:EOLhyphen"/>ceive every truth of him, and it may be, both see and re<g ref="char:EOLhyphen"/>ceive more then our selves? Surely in thus doing, we love the Image of our selves in our Disciples (as a man doth his Childe) and not of Jesus Christ in his. Were our hearts sincere and spirituall herein, and not sensual, selfish and hypocritical, we would love impartially, purely-and fer<g ref="char:EOLhyphen"/>vently, 1. <hi>Pet.</hi> 1.22. with 23.<note place="margin">1 Pet. 1, 21. with 23</note> as brethren born of the same Spirit, same Father, as Saints, Images of Christ (though not in every <hi>punctilio</hi> for form, feature, stature, proporti<g ref="char:EOLhyphen"/>on, age, apparell, &amp;c. alike one to another, as not to him) so, so I say, would we love and not as <hi>Cain,</hi> 1. <hi>John</hi> 3.11, 12.<note place="margin">1 Iohn 3, 11, 12</note> A kinde of love it seems he had to <hi>Abel,</hi> so far as he resembled himself, but such as could consist with his Mur<g ref="char:EOLhyphen"/>therous Envie of him, for holding forth and walking in an<g ref="char:EOLhyphen"/>other manner of Apprehension, Worship, and Service of God, holy and acceptable, when his own was not; for being
+<pb n="32" facs="tcp:51895:17"/> a Sectary, Schismatick, Precisian, Puritan, (for the devil hath change of names enough to serve his turn with) for dissenting and d ffering from his Eldest brother, whom he should have lookt upon and learned of, as the Priest, of whose mouth he should have received his Op nion and practice in Divine matters. For there is no man desires, or doth the worst of evils, but he looketh on it as good, ac<g ref="char:EOLhyphen"/>cording to that true Ethical Maxime, <hi>Nemo appetit ma<g ref="char:EOLhyphen"/>lum, nisi sub specie boni.</hi> Our first Parents thought God himself was too precise about the forbidden fruit, and lookt upon it as Good, and thence followed that Deluge of sin and sorrow that over-flowed the whole World. But of whom was <hi>Cain,</hi>
+               <note place="margin">Iohn 8, 44 Pselm 5, 5, 6. and 72.14</note> saith the Tex<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>? <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, of him who was a Lyar, and therefore a Murtherer, a Deceiver, and thereby a Destroyer from the beginning, even to this Day. It is a very evil signe of men in a false and deceitful way, when they are in a Murthering and Destroying way. The false Church hath been ever known from the beginning to persecute the true; the false Professor, the true; but never the true, the false, (I speak meerly of Ecclesiastical, and not Civil respects.) No, no, he that knowes the Glorious, Powerful, Prevalent Beautie and Majesty of Truth, and what are the kindly humbling, sweet and melting Con<g ref="char:EOLhyphen"/>quests of it upon the minde and heart, he dares not, he can<g ref="char:EOLhyphen"/>not, no not for a thousand Worlds and Lives, so degenerate and derogate from it, so cast affronts and indignities upon it, as to arm it with strawes and bulrushes, paper and pot-guns (for such and but such are they to the Spirit how<g ref="char:EOLhyphen"/>ever to the flesh) Deaths of Livelyhood and Liberty, Good name, and Native-Countrey, or what ever else may speak forth, a man of Blood and Falshood, (<hi>Psal.</hi> 5.5, 6.<note place="margin">Psalm 5.5, 6</note>) and not of Truth and Peace. But O the Antiperistasis of Divine and Humane zeal! But O the Antiperistasis of Divine and Humane zeal! And how in the one doth Mercy tri<g ref="char:EOLhyphen"/>umph over Sacrifice, in the other Sacrifice over Mercy! When the Instituted Service of God, which is but to be
+<pb n="33" facs="tcp:51895:17"/> subservient to, to improve and promote the Natural (in competition with which he disownes the other, yea strikes with the Rod of his Indignation, for such preposterous and perverse observances, and our wisdom wil it be to hearken unto, to understand the voice of that Rod now upon us, <hi>Micah</hi> 6. from the 6. to the 10.<note place="margin">Mich. 6. from 6.<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>0 10.</note> When this Instituted Service is by the superstition of men exalted a<g ref="char:EOLhyphen"/>gainst the Natural, how uncomely, yea how madly we be<g ref="char:EOLhyphen"/>have our selves. <hi>Had ye known,</hi> saith the Lord, <hi>Math.</hi> 12.7. compar'd with <hi>Hos.</hi> 6. v. 6. to the 11.<note place="margin">Math. 12.9 with Aos. 6 v. 6. to the 11</note> ye the Priests, Scribes and Pharisees, Doctors of the Law (who one would think should understand things deep and dark) what this mean<g ref="char:EOLhyphen"/>eth (this obvious and evident saying) <hi>I will have mercy and not sacrifice, ye would not</hi> (like your fore-fathers) <hi>have condemned the innocent.</hi> Referring to that 6. of <hi>Ho<g ref="char:EOLhyphen"/>sea,</hi> where the Priests were so incens'd against the people that went from the Calves of <hi>Israel</hi> to worship at the Temple of <hi>Iudea,</hi> that they rob'd and murther'd them, and that deliberately and unanimously, as the Result and De<g ref="char:EOLhyphen"/>cree of a General Councel and Assembly-Consent, yea though not only against the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, the Equity,<note place="margin">Deut. 4.13. with Exod 20 v. 4. and <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>3</note> the Life and Soul of the Covenant, the which the letter is but to usher in, and give place to, but against the very letter of it, (which though not <hi>quoad esse,</hi> yet <hi>quoad cognosci</hi> is worse.)</p>
+            <p>Moreover, may we not, ought we not to fear that it is not alwayes straw and stubble built on the safe and saving Foundation Jesus Christ, but sometimes also silver and gold, until the fire of our Indignation but as so fiercely and forcibly against, so consumingly against the Builders there<g ref="char:EOLhyphen"/>of, that we can afford no safetie to their persons, at least to their names, estates &amp;c. of them whom he wil eternally save, and the Iudicatory tryal of whose Case he hath so ex<g ref="char:EOLhyphen"/>pressely reserved to himself, 1. <hi>Cor.</hi> 3 from the 11.<note place="margin">1 Cor. 3. from 11. to 16</note> to the 16 (Yea &amp; how often are our Controversies meer <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>
+               <hi>sights, of words</hi> 1. <hi>Ti.</hi> 6.4, while we agree as to the main ruin and
+<pb n="34" facs="tcp:51895:18"/> substance of Truth, both parties having a competent ap<g ref="char:EOLhyphen"/>prehension of it, and labouring after a more distinct know<g ref="char:EOLhyphen"/>ledge of it, differ in the making out, manifestation and ex<g ref="char:EOLhyphen"/>pression of it, each most avoiding the extream of Errour that he counteth worst, and is most afraid of.) May we not pull up the Wheat (as to our endeavour) the fruit of the Immortal seed, instead of the Weeds (which of themselves will wither before the sun-shine of Truth) while wee proudly and pragmatically thrust our selves into his ap<g ref="char:EOLhyphen"/>propriated Work. And who may be truly said to suffer these things, those that use the way, wisdom and strength of God, or they that adde their own, for the weeding them out and destroying them. And so indeed do often fail in the very matter and subject of their work, and alwayes in the means and manner, the end and successe. While in thus doing they but repell, and not expell, conceal, concenter and strengthen, and not weaken, dispel and consume Error by the brightnes and glory of Truth breaking forth against it. Thus shal the false Doctrine, Discipline, and Worship of Antichrist be destroyed, 2. <hi>Thess.</hi> 2.8.<note place="margin">2 Thess. 28.</note> but his usurpation of the Civil Power, <hi>is an Iniquity shall be punished by the Iudge,</hi> by the Civil Power, <hi>Revel.</hi> 17.13. with 16.<note place="margin">Rev. 17 13. with 16.</note> As all that which is matter of Wrong, or wicked lewdnesse belongs to it to take care of and proceed against, as he said <hi>Acts</hi> 18.14, 15. (who dared not have balkt the businesse had he had it in charge, as concerning the weal and peace of the Empire) but if it be a question of Words and Names, and of your Law (of Religion) I will not be (I am not constituted deputed by <hi>Caesar</hi>) a judge of such matters. Let Ecclesiastical men look to, take care of the things of God and supernatural Light, those in Civil place and Power of the things of <hi>Caesar</hi> and Natural Light.</p>
+            <p>And now, O that we would now at lenghth be, still be of quiet composed, listening and attentive spirits, that we might learn and know (<hi>Psa.</hi> 40.9,<note place="margin">Psal. 49.9, 10.</note> 10) and so teach and make known the Lord, that we would, no not mediately
+<pb n="35" facs="tcp:51895:18"/> and indirectly, no more then immediately and directly be found strikers, (1 <hi>Tim.</hi> 3.3.<note place="margin">1 Tim. 3.3.</note>) insteed of instructors, not fighters against, insteed of feaders of our fellow servants, least the Lord of us all proceed against us in a Day and Way we little thought of, and lesse feared, <hi>Mat.</hi> 24.42.<note place="margin">Ma. 24.42, &amp;c.</note> to the end.</p>
+            <p>And here it will not be impertinent, and I hope not improfitable, to insert that notable passage I lately met with, fall'n from the pen of one of the Prefacer to the Re<g ref="char:EOLhyphen"/>formation of <hi>Scotland:</hi>
+               <note place="margin">Mr KNOX his History of the Refor<g ref="char:EOLhyphen"/>mation of the Kirk of Scotland, in the Preface,</note> And such was the happ ness of those days, saith he, that a very small proportion did content the Church men, setting wholly their mindes to the con<g ref="char:EOLhyphen"/>scionable discharge of their Calling, which they did, preaching Gods Word carefully, truly, simply, instructing the people in the fear of God, and so gaining their souls to their Maker and Redeemer: By this carriage they gained very much respect among the people, who honor<g ref="char:EOLhyphen"/>ed them as Fathers, Instructers and Guiders to heaven under God; The vertuous civil carriage of the Magi<g ref="char:EOLhyphen"/>strate, was the secondary cause of this good behavior of the Church men, who by <hi>his Authority</hi> kept them in or<g ref="char:EOLhyphen"/>der, and by his own example, taught them to discharge their duty faithfully, and liue discreetly; but so soon as the Civil Magistrate left them to themselues, then they neglecting their Calling, set their minde upon Ambition and Avarice, and consequently upon all evils, thinking of nothing less then that they were call'd to. Thus he.</p>
+            <p>O then that we would now be still, that we would se<g ref="char:EOLhyphen"/>parate our selves from the world, to intermeddle with all <hi>Wisdom, Substace,</hi>
+               <note place="margin">Pro. 17.1.</note>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> (which will be found indeed our wisdom to apply our selves wholy to) that we may be skill'd in the whole counsel of God, and be able to hold it forth undenyably, demonstratively, in the Spirit, like the Sun at noon day: That we might know and make known that the Lord, even the Holy One of Israel, he is God (as a God altogether like our selves, who pretendeth
+<pb n="36" facs="tcp:51895:19"/> not to him and for him, (<hi>Psalm</hi> 50.<note place="margin">Psa. 50. the whole<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </note>) the whole, that will serve our turns, while in a formal and outside way we serve our selves on him) The Holy one of Israel he is risen for his holy ones, his holy ways, his holy Name, from his holy place, from and through the Lord Iesus, to shake terribly not the earth alone, but heaven also; not Civil onely, but Ecclesiastical Powers: O let us look, yea, re<g ref="char:EOLhyphen"/>joyce in that Day, that we also must be shaken, that whatsoever is not of Himself may be shaken out of us! O let us <hi>keep silence before him,</hi> fear and admire him, <hi>Zac.</hi> 2.13. <hi>Hab.</hi> 2.20. &amp; ch. 3.<note place="margin">Zac. 1.13. heb. 2.20. &amp; ch. 3.</note> the whole, and not hastily to pass censure on him (for in censuring his we censure him, whither Ways, People, &amp;c. (<hi>Iudg.</hi> 13.11.<note place="margin">Iudges 13, with 11.</note>) who giveth account to no man of his matters, <hi>Job</hi> 33.13. And above all let us take heed of our flesh its losting to envy, but strive hard,<note place="margin">Mat. 28.</note> pray heartily, that our <hi>eye be not evil because his is good.</hi> What if he to make known the freeness, un<g ref="char:EOLhyphen"/>limittedness of his Sovereignty and Goodness (as he is evidently and emminently about his work) will make <hi>the first last, and the last first,</hi> either in persons or Nations? What if he will give as great, yea greater Guifts and Graces of his Spirit to them, that come but at the elea<g ref="char:EOLhyphen"/>uenth hour of the day, at the latter end of their lives, to labor in his Harvest, as, or then, to us who from our youth up have boarn the heat &amp; burthen of the day in U<g ref="char:EOLhyphen"/>niversities, Pulpits, &amp;c. Let us be glad, yea be glad with a most sweet and blessed correspondency &amp; complacency of heart,<note place="margin">Iohn 3.3.<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>9.30.</note> compleatness of joy, <hi>that he must increase, &amp; we de<g ref="char:EOLhyphen"/>crease:</hi> what if he willing to shew that he is nothing in the least beholding to us (had we known and done a thousand times more then we have, yet stil unprofitable servants) that the weight and stress of Religion lies not upon our shoul<g ref="char:EOLhyphen"/>ders, but on Jesus Christ, will pull us down, and set others in our places? <hi>Least we should say we have found out wisdom, &amp;c.</hi> Job 32, 13. May not we fall, and he
+<pb n="37" facs="tcp:51895:19"/> stand? our glory wither, and his remain for ever, ye<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, and shine out the more and more transplendently? yea certainly it shall, it shall (and the very joy and life of my soul it is) it shall: <hi>Even so come Lord Jesus, Come quickly,</hi> Amen, and Amen,</p>
+            <l>MY heart eternally shall say and sing;</l>
+            <l>Blast all our beauties, O our Beautious King!</l>
+            <l>Appear our Light, Life, Glory, in to,<note place="margin">Isa 40. to the end, and chap. 33.17.</note> thee</l>
+            <l>Let ours, not ours, but thine appear to be.</l>
+            <l>Write on the Horses Birdles, Holiness</l>
+            <l>Vnto the Lord;<note place="margin">Zac.</note> what e're we handle bless</l>
+            <l>With this Inscription, Dedicated to</l>
+            <l>The Lord, what e're we think, say, do,</l>
+            <l>Fill with adorn, shine in and thorow by</l>
+            <l>Thy blessed-holy Spirit; let the world descry,</l>
+            <l>True Happiness in Holiness doth lie,</l>
+            <l>And all our glory is in Sanctity.<note place="margin">Exod. 15.11. 2 Chron. 20.21. Rev. 12.1.</note>
+            </l>
+            <l>So <hi>cloath</hi> us <hi>with the Sun,</hi> that we might leave</l>
+            <l>
+               <hi>The Moon beneath our feet,</hi> while we receive</l>
+            <l>Peac<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, Plenty, Greatness, Glory of the World,<note place="margin">Dan. 7.27.</note>
+            </l>
+            <l>Dominion, Power, they all may all be hurl'd</l>
+            <l>Away with scorn, these sublunary things,</l>
+            <l>As dross and dung, by what Thy Presence brings,</l>
+            <l>So far transcendent in'ts Illustrious Full,<note place="margin">Phil. 3.8.</note>
+            </l>
+            <l>May make them all apparently but dull,</l>
+            <l>Dark, Dead and Vain, may make them all but fayls,</l>
+            <l>To grace that glory all their glory spils:</l>
+            <l>These in their Highest, yea all our Righteousness,</l>
+            <l>Our Wisdom, may th<gap reason="illegible" resp="#keyers" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e praise, while they confess,<note place="margin">Luke 2.14.</note>
+            </l>
+            <l>This presence is our Peace, and this goodwill,</l>
+            <l>Our Lusts and Wars can onely kill and still.<note place="margin">Iames 4.1. Ma<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. 4.2.</note>
+            </l>
+            <l>Rise Sun of Righteousness, with healing Wings;</l>
+            <l>O heal the breaches that our darkness brings.</l>
+            <l>We justle, clash with one another, while</l>
+            <pb n="19" facs="tcp:51895:20"/>
+            <l>Walk ways contrary in the night; but smile,</l>
+            <l>Shine forth upon us, shew thy way, and so</l>
+            <l>Thy scatter'd sheep thy saving health shall know;</l>
+            <l>Brought in together, blessed in thy Fold,</l>
+            <l>While our great gracious Sheepherd we behold,</l>
+            <l>In tender love his flock collecting, while</l>
+            <l>The ravenous Wolves expect our mutual spoil.</l>
+            <l>
+               <note place="margin">Zeph. 3.8, 9.</note>O turn a pure, pure lip unto us, make</l>
+            <l>Ʋs every one Self-love, Self-ends forsake,</l>
+            <l>(While waiting on thee we observe thy Dire,</l>
+            <l>Fierce wrath against these, sets the world on fire)</l>
+            <l>That from pure hearts pure lips may speak, so we</l>
+            <l>
+               <note place="margin">Psa 130 6.</note>To pray, praise, serve, with one Consent agree.</l>
+            <l>We wait, watch for our Jesus, more then they</l>
+            <l>Who sick and griev'd implore the Dawning Day.</l>
+            <l>When shall we see Thee eye to eye! that heart</l>
+            <l>
+               <note place="margin">Isa. 52.8.</note>To heart might bear its sweet consorting part!</l>
+            <l>Conform us all to thee; and so compose</l>
+            <l>Our jarring Spirits, make the sweeter close</l>
+            <l>VVith fuller harmony; that wholy may</l>
+            <l>Transport our wondring hearts at that strange way,</l>
+            <l>That soul-amusing and amazing Art,</l>
+            <l>Doth Discords into Concords so convert</l>
+            <l>VVith such rich recompense, we all may sing</l>
+            <l>This is the doing of our saving King!</l>
+            <l>Dear Saviour! This thy doing! VVhat shall we</l>
+            <l>O what return? Our selves and All to thee.</l>
+            <l>But what's that? VVorse then nothing. O then be</l>
+            <l>Our All in All to all Eternity.</l>
+            <l>Eternity! huge word! Eternity!</l>
+            <l>VVhere all our Trials shall our Trophies be.</l>
+            <l>VVhere all our Trophies shall our Spirits raise</l>
+            <l>To triumph in our great <hi>Iehovah's</hi> praise</l>
+            <l>With trembling joy, to marble forth those layes</l>
+            <l>Shall make Eternity but a few Dayes,</l>
+            <pb n="18" facs="tcp:51895:20"/>
+            <l>To loose our hearts in that transcendent Peace</l>
+            <l>Admits of no Decay nor no Increase;</l>
+            <l>To loose our hearts in that conspiring Bliss</l>
+            <l>Where fully know what's, He's ours, we are His;</l>
+            <l>Not to be found but as of, in, to, Him</l>
+            <l>That fills our wid'ned Vessels to the brim.</l>
+            <l>Fills? Overflows them to Eternity!</l>
+            <l>Eternity!</l>
+            <epigraph>
+               <q>Quicquid recipitur; recipitur in modum reci<g ref="char:EOLhyphen"/>pientis.</q>
+               <q>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <bibl>
+                     <hi>&amp;c. Epictetus.</hi>
+                  </bibl>
+               </q>
+               <q>Every thing hath two handles, and a fool takes it by the left.</q>
+            </epigraph>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
